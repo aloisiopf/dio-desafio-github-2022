@@ -5,4 +5,5 @@ Desafio de Projeto sobre Git/GitHub
 
 * Definição do escopo Global (E-mail / nome)
 * Configuração do SSH (Commits sem necessidade de autenticação constantes)
-
+* Criar estrutura base do repositório (Inicializar o diretório)
+* Sincronização Diretório Git Local / GitHub Remoto
