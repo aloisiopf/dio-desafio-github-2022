@@ -31,7 +31,7 @@ ssh-add *caminho localização/chave criada*
 2. Clicar na foto/imagem de perfil e selecionar **configurações**
 3. Acessar o menu *SSH and GPG keys*. Em seguida clique em New SSH key (Nova chave SSH) ou Add SSH key (Adicionar chave SSH).
 4. Definir um título (identificação) para a chave e adicione o conteúdo da chave no Key (chave)
-5. Clique no botão * Add SSH key (Adicionar chave SSH).*
+5. Clique no botão *Add SSH key (Adicionar chave SSH)*.
 6. Digite a senha.
 
 
@@ -52,7 +52,7 @@ git clone *URL SSH do repositório Git/GitHub*
 **Adicionar arquivos e verifique se tem alguma pendência**
 git status
 git add .
-git commit -m "Descrição
+git commit -m "Descrição/Comentário"
 
 
 ### Sincronização Diretório Git Local / GitHub Remoto
