@@ -33,3 +33,23 @@ ssh-add *caminho localização/chave criada*
 4. Definir um título (identificação) para a chave e adicione o conteúdo da chave no Key (chave)
 5. Clique no botão * Add SSH key (Adicionar chave SSH).*
 6. Digite a senha.
+
+
+### Criar estrutura base do repositório (Inicializar o diretório)
+
+**Criar o diretório (pasta) desejado
+mkdir projeto-git
+
+**Acessar o diretório (pasta) criado
+cd projeto-git
+
+**Criar estrutura inicial de um projeto Git ou clone um repositório existente
+git init
+ou
+git clone *URL SSH do repositório Git/GitHub*
+
+*Crie os arquivos e pastas que desejar e depois adicione esses aquivos ao git para fazer o commit
+**Adicionar arquivos e verifique se tem alguma pendência
+git status
+git add .
+git commit -m "Descrição
