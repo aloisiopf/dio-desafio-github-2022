@@ -37,19 +37,38 @@ ssh-add *caminho localização/chave criada*
 
 ### Criar estrutura base do repositório (Inicializar o diretório)
 
-**Criar o diretório (pasta) desejado
+**Criar o diretório (pasta) desejado**
 mkdir projeto-git
 
-**Acessar o diretório (pasta) criado
+**Acessar o diretório (pasta) criado**
 cd projeto-git
 
-**Criar estrutura inicial de um projeto Git ou clone um repositório existente
+**Criar estrutura inicial de um projeto Git ou clone um repositório existente**
 git init
 ou
 git clone *URL SSH do repositório Git/GitHub*
 
-*Crie os arquivos e pastas que desejar e depois adicione esses aquivos ao git para fazer o commit
-**Adicionar arquivos e verifique se tem alguma pendência
+*Crie os arquivos e pastas que desejar e depois adicione esses aquivos ao git para fazer o commit*
+**Adicionar arquivos e verifique se tem alguma pendência**
 git status
 git add .
 git commit -m "Descrição
+
+
+### Sincronização Diretório Git Local / GitHub Remoto
+
+**Verificar os repositórios sincronizados:**
+git remote -v
+
+**Adicionar repositório remoto (se for o caso)**
+git remote add origin *URL do repositório GIT remoto*
+
+**Enviar arquivos local para o remoto**. *Obs.: antes de executar o comando abaixo, confira se o repositório principal está nomeado como master ou main. Vai depender da versão do Git utilizdda. Ajuste o comando conforme configuração do Git* 
+git push origin master
+ou
+git push origin main
+
+**Buscar arquivos remotos para local**
+git pull origin master
+ou
+git pull origin main
